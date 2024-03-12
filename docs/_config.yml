@@ -13,12 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Abmcar's homepage
+title: Abmcar's blog
 email: abmcar@qq.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hi there 👋
 # baseurl: "http://abmcar.github.io" # the subpath of your site, e.g. /blog
 # url: "/docs" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
@@ -41,3 +39,18 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+# Set which comment system to use
+comments:
+  # 'disqus' / 'giscus' / 'utterances' are available
+  provider:            utterances
+
+# You must install utterances github app before use.(https://github.com/apps/utterances)
+# Make sure all variables are set properly. Check below link for detail.
+# https://utteranc.es/
+utterances:
+  repo:                "abmcar/abmcar.github.io"
+  issue-term:          "pathname"
+  label:               "Comments"
+  theme:               "github-light"
