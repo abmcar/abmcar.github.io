@@ -24,7 +24,8 @@ github_username:  Abmcar
 
 # Build settings
 markdown: kramdown
-theme: minimal-mistakes-jekyll
+theme: minima
+# theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 
