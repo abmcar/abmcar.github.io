@@ -41,3 +41,7 @@ gem "kramdown-parser-gfm"
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "webrick", "~> 1.8"
+
+# Minimal Mistakes A Jekyll theme
+# gem "minimal-mistakes-jekyll"
+
